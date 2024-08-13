@@ -5,6 +5,30 @@ const contactController_1 = require("../controller/contactController");
 const router = (0, express_1.Router)();
 /**
  * @swagger
+ * components:
+ *   schemas:
+ *     Contact:
+ *       type: object
+ *       required:
+ *         - name
+ *         - number
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: The auto-generated ID of the contact
+ *         name:
+ *           type: string
+ *           description: The name of the contact
+ *         number:
+ *           type: integer
+ *           description: The phone number of the contact
+ *       example:
+ *         id: 1
+ *         name: "John Doe"
+ *         number: 123456789
+ */
+/**
+ * @swagger
  * /contacts:
  *   get:
  *     summary: Get a list of contacts
