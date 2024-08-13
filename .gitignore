@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Output directories
+dist/
+build/
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Ignore jest artefaktów związanych z edytorami kodu
+.vscode/
+.idea/
+
+# Ignore bundler artifacts
+.bundle/
+public/assets/
+tmp/
+
+# Ignore specific IDE files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
